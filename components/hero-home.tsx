@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HeroHome() {
   return (
-    <section className="min-h-[100vh] flex items-center">
+    <section className="min-h-[100vh] flex items-center pt-32">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Hero content */}
         <div className="py-12 md:py-20">
