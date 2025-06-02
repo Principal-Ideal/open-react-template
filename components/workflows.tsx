@@ -7,7 +7,7 @@ export default function Workflows() {
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
-          <div className="flex flex-col lg:flex-row-reverse lg:items-center lg:justify-between lg:gap-12">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:gap-12">
             {/* Section header */}
             <div className="lg:max-w-[480px]">
               <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
