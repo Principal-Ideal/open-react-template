@@ -35,7 +35,7 @@ export default function HeroHome() {
                         <span className="relative block px-12 py-6">
                           <span className="relative inline-flex items-center text-2xl">
                             <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                              Start Building
+                            Join the waitlist
                             </span>
                             <span className="ml-2 tracking-normal text-gray-500 transition-transform group-hover/card:translate-x-0.5">
                               →
