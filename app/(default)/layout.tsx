@@ -14,7 +14,7 @@ export default function DefaultLayout({
 }) {
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false, // Changed from true to false to enable repeated animations
       disable: "phone",
       duration: 600,
       easing: "ease-out-sine",
