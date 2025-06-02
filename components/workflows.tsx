@@ -81,7 +81,7 @@ export default function Workflows() {
           </div>
 
           {/* Second section (mirrored) */}
-          <div className="mt-20 flex flex-col lg:flex-row lg:items-center lg:justify-between lg:gap-12">
+          <div className="mt-40 flex flex-col lg:flex-row lg:items-center lg:justify-between lg:gap-12">
             {/* Spotlight items */}
             <div className="mt-8 lg:mt-0 lg:max-w-[580px]" data-aos="fade-up">
               <Spotlight className="group">
