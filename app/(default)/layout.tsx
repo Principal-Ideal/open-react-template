@@ -14,10 +14,11 @@ export default function DefaultLayout({
 }) {
   useEffect(() => {
     AOS.init({
-      once: false, // Changed from true to false to enable repeated animations
+      once: false,
       disable: "phone",
       duration: 600,
       easing: "ease-out-sine",
+      mirror: true // Enable animations in both directions
     });
   });
 
