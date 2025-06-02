@@ -25,21 +25,51 @@ export default function Cta() {
             >
               Join the waiting list for early access
             </h2>
-            <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay={400}>
-                <a
-                  className="btn group mb-4 w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                  href="#0"
+            <form className="mx-auto max-w-md space-y-4">
+              <div>
+                <label
+                  className="mb-1 block text-left text-sm font-medium text-indigo-200/65"
+                  htmlFor="email"
+                >
+                  Email
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  className="form-input w-full"
+                  placeholder="Your email address"
+                  required
+                />
+              </div>
+              <div>
+                <label
+                  className="mb-1 block text-left text-sm font-medium text-indigo-200/65"
+                  htmlFor="feature"
+                >
+                  What feature do you need for this tool?
+                </label>
+                <textarea
+                  id="feature"
+                  className="form-textarea w-full"
+                  rows={4}
+                  placeholder="Tell us about the features you need..."
+                  required
+                />
+              </div>
+              <div className="pt-2">
+                <button
+                  type="submit"
+                  className="btn group w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]"
                 >
                   <span className="relative inline-flex items-center">
-                  Send
+                    Send
                     <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                       -&gt;
                     </span>
                   </span>
-                </a>
+                </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
