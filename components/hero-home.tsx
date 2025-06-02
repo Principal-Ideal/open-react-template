@@ -32,10 +32,10 @@ export default function HeroHome() {
                       href="#0"
                     >
                       <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-linear-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                        <span className="relative block bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] px-12 py-6 text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]">
+                        <span className="relative block px-12 py-6 text-gray-300">
                           <span className="relative inline-flex items-center text-xl">
                             Start Building
-                            <span className="ml-2 tracking-normal text-white/50 transition-transform group-hover/card:translate-x-0.5">
+                            <span className="ml-2 tracking-normal text-gray-500 transition-transform group-hover/card:translate-x-0.5">
                               →
                             </span>
                           </span>
