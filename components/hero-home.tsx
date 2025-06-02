@@ -1,4 +1,4 @@
-import VideoThumb from "@/public/images/hero-image-01.jpg";
+import React from 'react';
 
 export default function HeroHome() {
   return (
@@ -47,16 +47,6 @@ export default function HeroHome() {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay={200}>
-            <img
-              src={VideoThumb.src}
-              width={1104}
-              height={576}
-              alt="Hero"
-              className="mx-auto rounded-2xl"
-            />
           </div>
         </div>
       </div>
