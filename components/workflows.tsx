@@ -26,7 +26,7 @@ export default function Workflows() {
             </div>
 
             {/* Spotlight items */}
-            <div className="mt-8 lg:mt-0 lg:max-w-[580px]">
+            <div className="mt-8 lg:mt-0 lg:max-w-[580px]" data-aos="fade-up">
               <Spotlight className="group">
                 {/* Card */}
                 <a
