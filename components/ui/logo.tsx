@@ -9,7 +9,7 @@ export default function Logo() {
         width={48} 
         height={48} 
       />
-      <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-xl font-medium text-transparent">AI-driven tool</span>
+      <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-xl font-medium text-transparent">Simul</span>
     </div>
   );
 }

@@ -17,12 +17,10 @@ export default function Workflows() {
                 </span>
               </div>
               <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                Map your product journey
+              便捷，高效
               </h2>
               <p className="text-lg text-indigo-200/65">
-                Simple and elegant interface to start collaborating with your team
-                in minutes. It seamlessly integrates with your code and your
-                favorite programming languages.
+              Simul可以交付完整的嵌入式项目，包括程序和电路设计，减少您在不同工具之间的切换、调试带来的阻力。SImul内置了MCU模拟器和SPICE仿真工具，允许AI使用模拟工具并确保交付高质量的设计。 不需要将时间浪费在繁琐的底层细节中，您可以专注于项目最核心的创意和功能
               </p>
             </div>
 
@@ -109,12 +107,10 @@ export default function Workflows() {
                 </span>
               </div>
               <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                Map your product journey
+              免费，开源
               </h2>
               <p className="text-lg text-indigo-200/65">
-                Simple and elegant interface to start collaborating with your team
-                in minutes. It seamlessly integrates with your code and your
-                favorite programming languages.
+              Simul是免费的开源软件，支持主流的闭源/开源大模型，可以在云计算、本地部署之间自由选择。同时允许二次开发，为不同需求深度定制专属的AI代理
               </p>
             </div>
           </div>
@@ -129,12 +125,10 @@ export default function Workflows() {
                 </span>
               </div>
               <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                Map your product journey
+              与开发环境无缝衔接
               </h2>
               <p className="text-lg text-indigo-200/65">
-                Simple and elegant interface to start collaborating with your team
-                in minutes. It seamlessly integrates with your code and your
-                favorite programming languages.
+              与Fritzing、SimulIDE等开源工具集成，轻松集成到现有的工作流。与Arduino框架集成，简化开发。连接BoM清单，自动选择合适的上游供应商
               </p>
             </div>
 

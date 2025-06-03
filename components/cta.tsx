@@ -23,7 +23,7 @@ export default function Cta() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-8 font-nacelle text-2xl font-semibold text-transparent md:text-3xl"
               data-aos="fade-up"
             >
-              Join the waiting list for early access
+              加入抢先体验
             </h2>
             <form className="mx-auto max-w-md space-y-6">
               <div>
@@ -46,7 +46,7 @@ export default function Cta() {
                   className="mb-2 block text-left text-base font-medium text-indigo-200/65"
                   htmlFor="feature"
                 >
-                  What feature do you need for this tool?
+                  你最希望 Simul 实现哪些功能？
                 </label>
                 <textarea
                   id="feature"
@@ -62,7 +62,7 @@ export default function Cta() {
                   className="btn group w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] py-3 text-base font-semibold text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]"
                 >
                   <span className="relative inline-flex items-center">
-                    Send
+                    发送
                     <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                       -&gt;
                     </span>
