@@ -6,10 +6,10 @@ export default function Logo() {
       <Image 
         src="/images/ChatGPT_Image_2025年6月3日_17_09_02-removebg-preview.png" 
         alt="Logo" 
-        width={32} 
-        height={32} 
+        width={48} 
+        height={48} 
       />
-      <span className="text-sm font-medium text-gray-200">AI-driven tool</span>
+      <span className="text-base font-medium text-gray-200">AI-driven tool</span>
     </div>
   );
 }
