@@ -9,7 +9,7 @@ export default function Logo() {
         width={48} 
         height={48} 
       />
-      <span className="text-base font-medium text-gray-200">AI-driven tool</span>
+      <span className="text-xl font-medium text-gray-200">AI-driven tool</span>
     </div>
   );
 }
