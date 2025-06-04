@@ -3,6 +3,7 @@ import arduino from "@/public/images/arduino.png";
 import logo from "@/public/images/logo.png";
 import WorflowImg01 from "@/public/images/workflow-01.png";
 import Spotlight from "@/components/spotlight";
+import BOM from "@/public/images/BOM.jpg";
 
 export default function Workflows() {
   return (
@@ -15,11 +16,11 @@ export default function Workflows() {
             <div className="lg:max-w-[480px]">
               <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
                 <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                  Tailored Workflows
+                  支持主流平台
                 </span>
               </div>
               <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl text-transparent md:text-4xl">
-              便捷，高效
+              完成端到端的电子设计
               </h2>
               <p className="text-lg text-indigo-200/65">
               Simul 可以自动完成 Arduino、树莓派、ESP32平台的项目，为您节省开发和调试的时间。您不需要成为专家，即可专注于项目最核心的创意和功能。
@@ -48,13 +49,12 @@ export default function Workflows() {
                       <div className="mb-3">
                         <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                           <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                            Built-in Tools
+                            支持平台
                           </span>
                         </span>
                       </div>
                       <p className="text-indigo-200/65">
-                        Streamline the product development flow with a content
-                        platform that's aligned across specs and insights.
+                        Simul 支持 Arduino、树莓派、ESP32 等主流平台，自动生成代码和电路设计，简化开发流程。
                       </p>
                     </div>
                   </div>
@@ -87,13 +87,12 @@ export default function Workflows() {
                       <div className="mb-3">
                         <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                           <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                            Built-in Tools
+                            电路设计
                           </span>
                         </span>
                       </div>
                       <p className="text-indigo-200/65">
-                        Streamline the product development flow with a content
-                        platform that's aligned across specs and insights.
+                        通过仿真工具，Simul 可以确保生成的电路设计在实际应用中的可靠性和稳定性，减少调试时间。
                       </p>
                     </div>
                   </div>
@@ -105,14 +104,14 @@ export default function Workflows() {
             <div className="lg:max-w-[480px]">
               <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
                 <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                  Tailored Workflows
+                  工具整合
                 </span>
               </div>
               <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl text-transparent md:text-4xl">
-              免费，开源
+              高效、便捷的工作流程
               </h2>
               <p className="text-lg text-indigo-200/65">
-              Simul是免费的开源软件，支持主流的闭源/开源大模型，可以在云计算、本地部署之间自由选择。同时允许二次开发，为不同需求深度定制专属的AI代理
+              Simul可以交付完整的嵌入式项目，包括微控制器程序和电路设计，减少您在不同工具之间的切换、调试带来的阻力。SImul内置了模拟仿真工具，允许AI使用模拟工具并确保交付高质量的设计。
               </p>
             </div>
           </div>
@@ -182,7 +181,7 @@ export default function Workflows() {
                     <div className="relative h-[288px] w-full">
                       <Image
                         className="object-cover"
-                        src={WorflowImg01}
+                        src={BOM}
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         alt="Workflow 01"
@@ -194,13 +193,12 @@ export default function Workflows() {
                       <div className="mb-3">
                         <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                           <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                            Built-in Tools
+                          物料清单管理
                           </span>
                         </span>
                       </div>
                       <p className="text-indigo-200/65">
-                        Streamline the product development flow with a content
-                        platform that's aligned across specs and insights.
+                        Simul 可以根据电路设计自动生成详细的元器件清单，简化管理工作。
                       </p>
                     </div>
                   </div>
@@ -212,11 +210,11 @@ export default function Workflows() {
             <div className="lg:max-w-[480px]">
               <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
                 <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                  Tailored Workflows
+                  BOM
                 </span>
               </div>
               <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl text-transparent md:text-4xl">
-              免费，开源
+              自动管理项目需求
               </h2>
               <p className="text-lg text-indigo-200/65">
               Simul 可以协助管理您的产品物料清单，帮助您准确识别物料需求，精准匹配器件型号，智能识别参数、替代、停产风险，计算成本。
