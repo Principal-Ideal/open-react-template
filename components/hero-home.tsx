@@ -23,7 +23,7 @@ export default function HeroHome() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text font-nacelle text-4xl font-semibold text-transparent md:text-5xl leading-tight"
               data-aos="fade-up"
             >
-              AI 驱动的全自动嵌入式设计代理
+              AI 驱动的电子设计自动化工具
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -31,7 +31,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Simul 允许您通过自然语言输入需求，自动生成完整的嵌入式项目，包括MCU的源代码，以及匹配代码的外部电路。可以加速您的原型验证、艺术装置设计、物联网开发等工作。
+                Simul是一个 AI 原生 EDA 工具，通过自然语言输入自动生成完整的电子项目，包括电路和微控制器的源代码。Simul 可以加速您的工业原型验证、STEM 教育、科学研究、物联网开发等工作。
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center mt-16">
                 <div data-aos="fade-up" data-aos-delay={400}>
