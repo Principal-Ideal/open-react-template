@@ -1,5 +1,6 @@
 import Image from "next/image";
 import arduino from "@/public/images/arduino.png";
+import logo from "@/public/images/logo.png";
 import WorflowImg01 from "@/public/images/workflow-01.png";
 import Spotlight from "@/components/spotlight";
 
@@ -143,7 +144,7 @@ export default function Workflows() {
                     <div className="relative h-[288px] w-full">
                       <Image
                         className="object-cover"
-                        src={WorflowImg01}
+                        src={logo}
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         alt="Workflow 01"
