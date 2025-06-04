@@ -25,7 +25,7 @@ export default function HeroHome() {
             >
               AI 驱动的电子设计自动化工具
             </h1>
-            <div className="mx-auto max-w-3xl mt-4">
+            <div className="mx-auto max-w-4xl mt-4">
               <p
                 className="mb-8 text-xl text-indigo-200/65"
                 data-aos="fade-up"
