@@ -160,7 +160,7 @@ export default function Workflows() {
                         </span>
                       </div>
                       <p className="text-indigo-200/65">
-                        Simul 可以输出与 KiCad、嘉立创 EDA 等工具兼容的设计文件，继续进行后续的开发和调试工作。
+                        Simul 可以输出与 KiCad、嘉立创 EDA 等工具兼容的设计文件，快速进行后续的开发和调试工作。
                       </p>
                     </div>
                   </div>
