@@ -23,17 +23,17 @@ export default function HeroHome() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text font-nacelle text-4xl text-transparent md:text-5xl leading-tight"
               data-aos="fade-up"
             >
-              AI驱动的电子设计自动化工具
+              AI 驱动的电子设计自动化工具
             </h1>
-            <div className="mx-auto max-w-3xl mt-12">
+            <div className="mx-auto max-w-3xl mt-4">
               <p
                 className="mb-8 text-xl text-indigo-200/65"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Simul是一个 AI 原生 EDA 工具，通过自然语言输入自动生成完整的电子项目，包括电路和微控制器的源代码。Simul 可以加速您的工业原型验证、STEM 教育、科学研究、物联网开发等工作。
+                Simul 是一个 AI 原生 EDA 工具，通过自然语言输入自动生成完整的电子项目，包括电路和微控制器的源代码。Simul 可以加速您的工业原型验证、STEM 教育、科学研究、物联网开发等工作。
               </p>
-              <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center mt-16">
+              <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center mt-10">
                 <div data-aos="fade-up" data-aos-delay={400}>
                   <Spotlight>
                     <a
